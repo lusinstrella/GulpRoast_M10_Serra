@@ -62,7 +62,7 @@ main {
   align-items: flex-start;
   align-self: stretch;
   background-color: white;
-  background-image: url(../GulpRoast_M10_Serra/Images/gulp-bottom-beans.jpg);
+  background-image: url(images/gulp-bottom-beans.jpg);
   background-position: top 110% right 35%;
   background-repeat: no-repeat;
   background-size: contain;
@@ -245,7 +245,7 @@ small {
     align-items: flex-start;
     align-self: stretch;
     background-color: white;
-    background-image: url(../GulpRoast_M10_Serra/Images/gulp-bottom-beans.jpg);
+    background-image: url(images/gulp-bottom-beans.jpg);
     background-position: top 100% right 35%;
     background-repeat: no-repeat;
     background-size: contain;
