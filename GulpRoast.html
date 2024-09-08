@@ -1,0 +1,138 @@
+<!doctype html>
+<!--This is the head. It contains the boilerplate for the site-->
+
+<head>
+  <link rel="stylesheet" href="GulpRoast.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+
+  <script src="https://kit.fontawesome.com/fa82839f4f.js" crossorigin="anonymous"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title> home</title>
+
+</head>
+
+<!--The header contains the logo and the navbar-->
+<header>
+
+  <a href="https://uxuicurriculum.wixsite.com/gulproast" target="blank">
+    <img src=" https://assets.codepen.io/6306176/gulp-logo-light.png" class="logo" alt="logo">
+  </a>
+
+  <nav class="navbar">
+    <ul class="navbar">
+      <li>
+        <a href="GulpRoast.html" target="self" class="nav"> <i class="fa-solid fa-mug-saucer"></i> About</a>
+      </li>
+      <li>
+        <a href="GulpRoast_ProductPage.html" target="self" class="nav"><i class="fa-solid fa-fire-flame-curved"></i>
+          Products</a>
+      </li>
+      <li>
+        <a href="GulpRoast_ContactPage.html" target="_self" class="nav"> <i class="fa-solid fa-phone"></i> Contact</a>
+      </li>
+
+    </ul>
+
+  </nav>
+
+</header>
+
+
+
+
+
+<!--The main element contains the content in the page-->
+
+<div class="background"
+  style="background: url(../GulpRoast_M10_Serra/Images/gulp-bottom-beans.jpg) bottom; background-size: contain; background-repeat: no-repeat;">
+  <main>
+
+
+    <!--I use a section tag instead of a div here to make the site more accessible-->
+    <section class="about">
+
+      <h1>About Us</h1>
+
+      <p>Life without coffee is a gloomy place. That’s why Gulp Roast has been proudly serving up fresh coffee to the <a
+          href="https://goo.gl/maps/3rAyszfwSDx8Si2Y9" target="_blank"> San Francisco area</a> since 2000. Our coffee is
+        locally sourced with the most delicious blends coming directly to your home, right from coffee farmers near you.
+        Our coffee makes even the most difficult days just a tad easier to get through.
+
+        For us, this isn’t just brewing coffee. <br> <br> This is an active life mission to bring our customers the most
+        flavorful, full-bodied beverages we can get our hands on. Browse our site to learn more about our locations and
+        sourcing techniques.</p>
+
+      <a href="https://uxuicurriculum.wixsite.com/gulproast/contact" target="_blank">
+        <button>Contact Us </button>
+      </a>
+
+    </section>
+
+    <!--Putting the images in their own parent container, makes it easier to align-->
+    <section class="picture">
+
+      <!--The picture tag allows me to declare a srcset for different screen sizes. In this way the webpage will pull the correct picture at the predetermined size-->
+      <picture>
+
+        <source media="(min-width: 320px) and (max-device-width: 700px)"
+          srcset="../GulpRoast_M10_Serra/Images/gulp-pouring-coffee-horizontal-sm.jpg">
+        <source media="(min-width: 800px) and (max-width: 1024px)"
+          srcset="../GulpRoast_M10_Serra/Images/gulp-pouring-coffee-vertical.jpg">
+        <source media="(min-width: 1025) and (max-width: 1900px)"
+          srcset="../GulpRoast_M10_Serra/Images/gulp-pouring-coffee-horizontal.jpg">
+        <img src="../GulpRoast_M10_Serra/Images/gulp-pouring-coffee-horizontal.jpg" class="pour"
+          alt="Hot Water Being Poured into Coffee Grounds" style="width:auto;">
+
+      </picture>
+
+
+
+    </section>
+
+
+
+  </main>
+</div>
+
+<!--At the end of the page is he footer, which contains the copyright and the social media links-->
+
+<footer>
+
+  <ul class="socials">
+    <li>
+      <a href="https://www.facebook.com/" target="blank">
+
+
+
+        <i class="fa-brands fa-facebook fa-xl" style="color:#f2f2f2;"></i>
+      </a>
+    </li>
+
+    <li>
+      <a href="https://x.com/" target="_blank">
+        <i class="fa-brands fa-square-twitter fa-xl" style="color: #f2f2f2;"></i>
+      </a>
+    </li>
+
+    <li>
+      <a href="https://www.instagram.com/" target="_blank"> <i class="fa-brands fa-square-instagram fa-xl"
+          style="color: #f2f2f2;"></i></a>
+    </li>
+  </ul>
+
+
+
+  <small>© edX Boot Camps LLC. This is not a coffee website. This is a fictitious company and scenario intended only for
+    internal academic purposes.</small>
+
+</footer>
